@@ -4,12 +4,13 @@ import random
 import datetime
 
 # ==========================================
-# [1. 설정 및 스타일] - 투박하지만 큰 글씨 (현장용)
+# [1. 설정 및 스타일]
 # ==========================================
 st.set_page_config(
     page_title="청년농부 AI 비서",
     page_icon="🌾",
-    layout="mobile" # 모바일 친화적 레이아웃
+    layout="centered", # "mobile"은 없음 -> "centered"로 수정
+    initial_sidebar_state="collapsed"
 )
 
 st.markdown("""
